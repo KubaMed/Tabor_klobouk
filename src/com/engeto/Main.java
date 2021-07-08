@@ -15,28 +15,11 @@ public class Main {
     JFrame window;
     Container con;
     JPanel buttonPannel;
-    JPanel buttonPannelNeb;
+
     JButton havButton;
-    JButton havButton2;
-    JButton havButton3;
-    JButton havButton4;
-    JButton havButton5;
 
-    JButton zmiButton1;
-    JButton zmiButton2;
-    JButton zmiButton3;
-    JButton zmiButton4;
     JButton zmiButton5;
-
-    JButton nebButton1;
-    JButton nebButton2;
-    JButton nebButton3;
-    JButton nebButton4;
     JButton nebButton5;
-
-    JButton mrzButton1;
-    JButton mrzButton2;
-    JButton mrzButton3;
     JButton mrzButton4;
     JButton mrzButton5;
 
@@ -172,7 +155,7 @@ public class Main {
         @Override
         public void actionPerformed(ActionEvent e) {
             int min = 1;
-            int max = 5;
+            int max = 4;
 
             Random random = new Random();
 
@@ -204,6 +187,9 @@ public class Main {
                     se.play();
                     break;
                 }
+                else{
+                    continue;
+                }
 
             }
 
@@ -216,7 +202,7 @@ public class Main {
         @Override
         public void actionPerformed(ActionEvent e) {
             int min = 1;
-            int max = 5;
+            int max = 4;
 
             Random random = new Random();
 
@@ -261,7 +247,7 @@ public class Main {
         @Override
         public void actionPerformed(ActionEvent e) {
             int min = 1;
-            int max = 5;
+            int max = 4;
 
             Random random = new Random();
 
@@ -304,7 +290,7 @@ public class Main {
         @Override
         public void actionPerformed(ActionEvent e) {
             int min = 1;
-            int max = 5;
+            int max = 4;
 
             Random random = new Random();
 
