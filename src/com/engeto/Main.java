@@ -15,21 +15,19 @@ public class Main {
     JFrame window;
     Container con;
     JPanel buttonPannel;
-
     JButton havButton;
-
     JButton zmiButton5;
     JButton nebButton5;
     JButton mrzButton4;
     JButton mrzButton5;
 
 
-    String clickSound;
     ButtonHandlerNeb bHandlerNeb = new ButtonHandlerNeb();
     ButtonHandlerHav bHandlerHav = new ButtonHandlerHav();
     ButtonHandlerZmi bHandlerZmi = new ButtonHandlerZmi();
     ButtonHandlerMrz bHandlerMrz = new ButtonHandlerMrz();
     ButtonHandlerIntro bHandlerIntro = new ButtonHandlerIntro();
+
 
     String introClip = "./res/UvodniSlovo.wav";
     String havrasparClip1 = "./res/Havraspar1.wav";
@@ -38,17 +36,20 @@ public class Main {
     String havrasparClip4 = "./res/Havraspar4.wav";
     String havrasparClip5 = "./res/Havraspar5.wav";
 
+
     String MrzimorClip1 = "./res/Mrzimor1.wav";
     String MrzimorClip2 = "./res/Mrzimor2.wav";
     String MrzimorClip3 = "./res/Mrzimor3.wav";
     String MrzimorClip4 = "./res/Mrzimor4.wav";
     String MrzimorClip5 = "./res/Mrzimor5.wav";
 
+
     String NebelvirClip1 = "./res/Nebelvir1.wav";
     String NebelvirClip2 = "./res/Nebelvir2.wav";
     String NebelvirClip3 = "./res/Nebelvir3.wav";
     String NebelvirClip4 = "./res/Nebelvir4.wav";
     String NebelvirClip5 = "./res/Nebelvir5.wav";
+
 
     String ZmijozelClip1 = "./res/Zmijozel1.wav";
     String ZmijozelClip2 = "./res/Zmijozel2.wav";
@@ -61,7 +62,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-	// write your code here
+
 
         new Main();
 
@@ -69,7 +70,7 @@ public class Main {
 
     public Main(){
         window = new JFrame();
-        window.setSize(800, 600);
+        window.setSize(400, 400);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.getContentPane().setBackground(Color.BLACK);
         window.setLayout(null);
@@ -77,7 +78,7 @@ public class Main {
         window.setVisible(true);
 
     buttonPannel = new JPanel();
-    buttonPannel.setBounds(300, 300, 400, 400);
+    buttonPannel.setBounds(0, 0, 400, 400);
     buttonPannel.setBackground(Color.blue);
 
     con.add(buttonPannel);
